@@ -1,7 +1,7 @@
 
 import { GoogleGenAI, Type, Modality } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.GEMINI_API_KEY || 'AIzaSyDF_MH1UtQfBvKQhNZmdDX5TXIOIprZ8CI' });
 
 export const generateDailyPlan = async (userName: string, goal: string, history: any[], isSprint: boolean, isChaos: boolean) => {
   const modeContext = isChaos 
