@@ -1,0 +1,7 @@
+{
+  "name": "Sprint & Turtle",
+  "description": "An AI mentor for discipline that focuses on micro-steps and staying in motion, even when things go wrong.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
